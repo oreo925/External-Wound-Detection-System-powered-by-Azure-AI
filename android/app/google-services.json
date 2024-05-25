@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "294318007510",
+    "project_id": "wounddetection-aa1ee",
+    "storage_bucket": "wounddetection-aa1ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294318007510:android:7ca085493f7f7b81459577",
+        "android_client_info": {
+          "package_name": "com.numluni.wounddetectionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294318007510-on62de5nrtucd5vg1q8mdf1ln5b2351e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu-c4E-25mf88GWssQcPLj_uciOu2QpIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294318007510-on62de5nrtucd5vg1q8mdf1ln5b2351e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "294318007510-cencicbe5khmktpks14dj913tno0hdro.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wounddetection"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
