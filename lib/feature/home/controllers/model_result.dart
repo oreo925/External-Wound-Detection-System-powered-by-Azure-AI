@@ -87,14 +87,14 @@ class ModelResultPage extends StatelessWidget {
   }
 
   Future<String> sendImageToEndpoint(File imageFile) async {
-    var url = Uri.parse('https://woundmodel-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/71106831-7ea6-4e57-bb27-c4276c48af04/classify/iterations/Iteration1/image');
+    var url = Uri.parse('');//add the endpint url here
     var bytes = await imageFile.readAsBytes();
 
     try {
       var response = await http.post(
         url,
         headers: {
-          'Prediction-Key': 'a22b5e83700948e6b891f226bdbe4488',
+          'Prediction-Key': '', //add the Prediction Key here
           'Content-Type': 'application/octet-stream',
         },
         body: bytes,
