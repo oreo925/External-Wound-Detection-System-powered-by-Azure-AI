@@ -23,7 +23,7 @@ jobs:
 
       # Optional: Verify formatting
       - name: Verify formatting
-        run: flutter format --set-exit-if-changed
+        run: flutter format . --set-exit-if-changed
 
       - name: Analyze project source
         run: flutter analyze
